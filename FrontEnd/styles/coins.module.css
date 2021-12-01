@@ -1,0 +1,51 @@
+.pc_red {
+    width: 10%;
+    color: red;
+}
+
+.pc_green {
+    width: 10%;
+    color: green;
+
+}
+
+.coinscon {
+    display: flex;
+    justify-content: center;
+}
+.coinsrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: fit-content;
+    border: royalblue   1px solid;
+}
+.symbolcoins{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 0.5rem;
+}
+.symbolcoins img{
+    height: 3rem;
+    padding: 0.5rem;
+}
+.coinsdata{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 65%;
+}
+.pricecoins{
+    width: 20%;
+}
+.coinsdata p{
+    margin-right: 1rem;
+    justify-content: center;
+}
+.mtk{
+    width: auto;
+}
